@@ -1,0 +1,14 @@
+TIPOS DE DATOS NUMPY
+
+Tipo	            Caracter
+Bool	            ?
+byte (Signed)	    b
+byte (unsigned)	    B
+integer (Signed)	i
+integer (unsigned)	u
+float	            f
+complex	            c
+timedelta	        m
+datetime	        M
+Objects	            O
+Unicode	            U
