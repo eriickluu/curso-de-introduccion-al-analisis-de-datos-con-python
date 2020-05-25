@@ -1,29 +1,43 @@
 import numpy as np 
 
-lista = [10, 20, 30, 40, 50, 60]
-
-print(lista)
-print('-----------------------------')
-
-print(type(lista))
-print('-----------------------------')
-
-a = np.array(lista)
+a = np.arange(0, 10)
 
 print(a)
 print('-----------------------------')
 
-print(type(a))
+a[5] = 100
+
+print(a)
 print('-----------------------------')
 
-print(a.ndim)
+a[0:4] = 20
+
+print(a)
 print('-----------------------------')
 
-print(a.size)
+a[[4, 6, 7]] = 10
+
+print(a)
 print('-----------------------------')
 
-print(a.itemsize)
+np.append(a, 50)
+
+# mejor practica
+a = np.append(a, 50)
+
+print(a)
 print('-----------------------------')
 
-print(a.shape)
+np.delete(a, 5)
+
+a = np.delete(a, 5)
+
+print(a)
+print('-----------------------------')
+
+np.append(a, [500, 500]])
+
+a = np.append(a, [500, 500]])
+
+print(a)
 print('-----------------------------')
